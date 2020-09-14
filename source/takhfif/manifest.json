@@ -1,0 +1,26 @@
+{
+  "name": "Portakhfif",
+  "short_name": "Portakhfif",
+  "icons": [{
+    "src": "wp-content/themes/portakhfif/assets/images/fav/apple-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }, {
+      "src": "wp-content/themes/portakhfif/assets/images/fav/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "wp-content/themes/portakhfif/assets/images/fav/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "wp-content/themes/portakhfif/assets/images/fav/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }],
+  "lang": "fa-IR",
+  "start_url": "default.htm",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

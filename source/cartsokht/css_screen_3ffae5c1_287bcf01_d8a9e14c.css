@@ -1,0 +1,216 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	font: 100%/28px Tahoma, Helvetica, sans-serif; color: rgb(86, 75, 71); font-size-adjust: none; font-stretch: normal;
+}
+p {
+	line-height: 1.2em; font-size: 1.2em; margin-bottom: 1.2em;
+}
+a {
+	text-decoration: none;
+}
+a img {
+	border: currentColor; border-image: none;
+}
+input {
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+select {
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+input:focus {
+	background-color: rgb(255, 255, 224);
+}
+textarea:focus {
+	background-color: rgb(255, 255, 224);
+}
+input[type=submit]:focus {
+	background-color: rgb(102, 153, 255);
+}
+input[type=text] {
+	border-radius: 5px; width: 160px; height: 24px; font-size: 22px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+select {
+	border-radius: 5px; width: 180px; height: 28px; font-size: 14px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+option {
+	padding: 0px 2px;
+}
+fieldset {
+	padding: 10px; border-radius: 5px; border: 2px solid rgb(27, 85, 102); border-image: none; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+legend {
+	padding: 0px 10px; color: rgb(27, 87, 144); font-weight: 700;
+}
+ul {
+	list-style-position: inside;
+}
+ol {
+	list-style-position: inside;
+}
+ol {
+	list-style-type: none;
+}
+h5 {
+	color: rgb(0, 48, 157);
+}
+.floatleft {
+	float: left !important;
+}
+.floatright {
+	float: right !important;
+}
+.clear {
+	clear: both;
+}
+.note {
+	color: rgb(27, 87, 144); font-size: 12px;
+}
+.note2 {
+	font: bold 14px/18px Tahoma, Arial, sans-serif; padding: 10px; border-radius: 5px; border: 2px solid rgb(27, 85, 102); border-image: none; color: red; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+#header {
+	margin: 0px auto; width: 869px; direction: rtl;
+}
+#bottom_header {
+	background: rgb(153, 0, 204) repeat-x; padding: 0px 5px 10px; border-radius: 5px 5px 0px 0px; height: 29px; -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0;
+}
+#bottom_header ul {
+	list-style: none; font-size: 80%;
+}
+#bottom_header li {
+	padding: 6px 20px; float: right; display: block;
+}
+#bottom_header a {
+	color: rgb(255, 255, 255); font-weight: 700;
+}
+#bottom_header a:hover {
+	color: rgb(102, 153, 255);
+}
+#content {
+	margin: 0px auto; width: 869px; direction: rtl; background-color: rgb(229, 231, 229);
+}
+#inner_content_1 {
+	padding: 16px;
+}
+#inner_content_2 {
+	padding: 16px;
+}
+#inner_content_3 {
+	padding: 16px;
+}
+#inner_content {
+	padding: 16px;
+}
+#inner_content_1 {
+	background-color: rgb(218, 244, 251);
+}
+#inner_content_2 {
+	background-color: rgb(248, 242, 223);
+}
+#inner_content_3 {
+	background-color: rgb(224, 244, 224);
+}
+#footer {
+	margin: 0px auto; padding: 0px 28px 10px; border-radius: 0px 0px 5px 5px; width: 813px; height: 19px; font-size: 80%; direction: rtl; background-color: rgb(153, 0, 204); -moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px;
+}
+#footer ul {
+	color: rgb(221, 213, 24); font-weight: 700; list-style-type: none; list-style-position: inside;
+}
+#bottom_footer {
+	margin: 0px auto; padding: 8px 0px; width: 869px; text-align: left; font-size: 80%; direction: rtl;
+}
+#bottom_footer a {
+	font-weight: 700;
+}
+#user {
+	padding: 2px; width: 350px; float: left;
+}
+.user {
+	padding: 2px; width: 350px; float: left;
+}
+#form_1 {
+	margin: 2px; padding: 5px; text-align: right;
+}
+#form_2 {
+	margin: 2px; padding: 5px; text-align: right;
+}
+#form_3 {
+	margin: 2px; padding: 5px; text-align: right;
+}
+#form {
+	margin: 2px; padding: 5px; text-align: right;
+}
+.form {
+	margin: 2px; padding: 5px; text-align: right;
+}
+#desc {
+	width: 399px; float: right;
+}
+.desc {
+	width: 399px; float: right;
+}
+#acc {
+	padding: 2px;
+}
+.acc {
+	padding: 2px;
+}
+#startStat {
+	padding: 5px; text-align: center; color: rgb(204, 51, 0);
+}
+.bl {
+	padding: 0px 10px; border-radius: 10px; border: 3px solid rgb(0, 47, 157); border-image: none; height: 40px; color: rgb(0, 47, 157); font-size: 24px; font-weight: 700; box-shadow: 0px 1px 3px rgba(0,0,0,0.5), inset 0px 0px 3px rgba(255,255,255,1); text-shadow: 0px -1px 0px rgba(0,0,0,0.2), 0px 1px 0px rgba(255,255,255,1); -moz-border-radius: 10px; -webkit-border-radius: 10px; -moz-box-shadow: 0 1px 3px rgba(000, 000, 000, 0.5), inset 0 0 3px rgba(255, 255, 255, 1); -webkit-box-shadow: 0 1px 3px rgba(000, 000, 000, 0.5), inset 0 0 3px rgba(255, 255, 255, 1);
+}
+.t {
+	color: rgb(0, 48, 157); font-weight: 700;
+}
+.a {
+	color: rgb(0, 48, 157); font-size: 80%;
+}
+table.dataList th {
+	background: rgb(56, 104, 178); padding: 2px 0px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 1.2; font-weight: 700; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid;
+}
+table.dataList td {
+	padding: 6px 0px; height: 20px; text-align: center; vertical-align: top; border-bottom-color: rgb(149, 188, 226); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table.dataList tr.alt td {
+	background: rgb(236, 246, 252);
+}
+table.dataList tr.over td {
+	background: rgb(188, 212, 236);
+}
+#popup_container {
+	background: rgb(255, 255, 255); border-radius: 5px; border: 5px solid rgb(153, 153, 153); border-image: none; color: rgb(0, 0, 0); font-family: Tahoma, sans-serif; font-size: 12px; direction: rtl; min-width: 300px; max-width: 600px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+#popup_title {
+	background: rgb(153, 0, 204) repeat-x top rgb(204, 204, 204); border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(153, 153, 153); margin: 0px; padding: 0px; border-image: none; text-align: center; color: rgb(102, 102, 102); line-height: 1.75em; font-size: 14px; font-weight: 700; cursor: default;
+}
+#popup_content {
+	background: rgb(153, 0, 204) no-repeat 16px 16px; margin: 0px; padding: 1em 1.75em;
+}
+.alert#popup_content {
+	background-position: right top; background-image: url("../cartsokht/se-bg2.png");
+}
+.confirm#popup_content {
+	background-image: url("../cartsokht/se-bg2.png");
+}
+.prompt#popup_content {
+	background-image: url("../cartsokht/se-bg2.png");
+}
+#popup_message {
+	padding-right: 48px;
+}
+#popup_panel {
+	margin: 1em 0px 0px 1em; text-align: center;
+}
+#popup_prompt {
+	margin: 0.5em 0px;
+}

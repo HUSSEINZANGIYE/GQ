@@ -1,0 +1,171 @@
+@font-face {
+	font-family: 'Vazir';
+	src: url('../font/Vazir.ttf') format('truetype');
+
+}
+
+@font-face {
+	font-family: 'Title';
+	src: url('../font/Title.ttf') format('truetype');
+
+}
+
+body {
+	font-family: Title;
+	top: 0;
+	left: 0;
+}
+
+.title2 {
+	color: #fff;
+	top: 20px;
+	font-size: 18px;
+}
+
+.hr-1 {
+	top: 240px;
+	position: absolute;
+	width: 280px;
+	border: dashed 1px #fff;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.hr-2 {
+	top: 380px;
+	position: absolute;
+	width: 280px;
+	border: dashed 1px #fff;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+
+
+.btn-6 {
+	position: absolute;
+	width: 180px;
+	height: 65px;
+	color: #fff;
+	border: solid 2px #fff;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 15px;
+	top: 130px;
+	font-family: vazir;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.btn-7 {
+	position: absolute;
+	width: 180px;
+	height: 65px;
+	color: #fff;
+	border: solid 2px #fff;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 15px;
+	top: 270px;
+	font-family: vazir;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.btn-8 {
+	position: absolute;
+	width: 180px;
+	height: 65px;
+	color: #fff;
+	border: solid 2px #fff;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 15px;
+	top: 410px;
+	font-family: vazir;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.demo-1 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	color: #fff;
+	top: 215px;
+	font-size: 12px;
+}
+
+.demo-2 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	color: #fff;
+	top: 355px;
+	font-size: 12px;
+}
+
+.demo-3 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	color: #fff;
+	top: 490px;
+	font-size: 12px;
+}
+@media screen and (min-width: 500px) {
+.demo-img {
+	width: 700px;
+	height: 400px;
+	border-radius: 10px;
+}
+
+.dialogd {
+	padding: 0;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	border: 8px solid #252525;
+	border-radius: 15px;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	background-color: #252525;
+	color: #fff;
+
+}
+
+.closeDialog {
+	color: #ff0000;
+	font-family: Title;
+}
+}
+
+@media screen and (max-device-width: 500px) {
+	.demo-img {
+	width: 300px;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.dialogd {
+	padding: 0;
+	width: 300px;
+	height: 160px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	border: 8px solid #252525;
+	border-radius: 15px;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	background-color: #252525;
+	color: #fff;
+
+}
+
+.closeDialog {
+	color: #ff0000;
+	font-family: Title;
+}
+
+}
